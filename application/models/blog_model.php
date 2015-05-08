@@ -28,9 +28,13 @@ class Blog_model extends CI_Model {
 	    }
 
 	    $this->db->select('id,title');
-	    //$t
+	    $this->db->order_by('time','desc');
+	    $this->db->limit('5');
+	    $timeQ = $this->db->get('Blog')->result_array();
 
 	    $outputList = array();
+	    $outputList['newest'] = $timeQ;
+
 	    foreach ($list_array as $type) {
 	    	$this->db->select('id,title');
 	    	$this->db->where('articleType',$type);
