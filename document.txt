@@ -1,0 +1,63 @@
+# OMUBackend
+
+API URL
+http://{domain_name}/index.php/api/{route_name}/
+===================================================
+photo
+  /addPhoto
+
+blog
+  /getBlogList(DONE)
+  /getBlogSide(DONE)
+  /getBlog(DONE)
+  /addBlog(TODO)
+  /editBlog(TODO)
+  /delBlog(TODO)
+
+brand
+  /getBrandNameList(DONE)
+  /getBrandDetail(DONE)
+  /addBrand(TODO)
+  /editBrand(TODO)
+  /delBrand(TODO)
+
+contact
+  /addInfo(TODO)
+  /getSample(TODO)
+  /sendMail(TODO)
+
+home
+  /getIndex(TODO)
+  /editIndex(TODO)
+
+material
+  /getMaterialSeries(DONE)
+  /getMaterialDetail(DONE)
+  /addMaterial(TODO)
+  /editMaterial(TODO)
+  /delMaterial(TODO)
+
+product
+  /getBrandList(DONE)
+  /getProducts(DONE)
+  /getProductsSpecial(DONE)
+  /addProduct(TODO) ==>必須屬於某品牌的某系列
+  /editProduct(TODO)
+  /delProduct(TODO)
+
+recommend
+  /getRecommand(DONE)
+  /editRecommand(TODO)
+  /addRecommander(TODO)
+  /editRecommander(TODO)
+  /delRecommander(TODO)
+
+
+
+
+
+
+
+
+
+
