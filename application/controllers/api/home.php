@@ -6,6 +6,9 @@ class Home extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
+		
+		header('Content-Type: application/json');
+		header('Access-Control-Allow-Origin:*');
 
 		$this->load->model('product_model');
 		$this->load->model('blog_model');

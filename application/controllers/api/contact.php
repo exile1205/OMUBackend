@@ -5,6 +5,8 @@
 class Contact extends CI_Controller {
 	function __construct() {
 		parent::__construct();
+		header('Content-Type: application/json');
+		header('Access-Control-Allow-Origin:*');
 	}
 	public function addInfo() {
 		$inputData = $this->input->post(NULL, true);

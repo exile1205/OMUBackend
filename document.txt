@@ -52,6 +52,9 @@ recommend
   /editRecommander(TODO)
   /delRecommander(TODO)
 
+admin
+  /login
+
 
 
 
